@@ -3,10 +3,10 @@
 int main()
 {
     int n,i,j,k;
-    printf("\nEnter the value of n:\n");
+    printf("\nEnter the value of n for Newton Backward:\n");
     scanf("%d",&n);
     float x[n+1], y [n+1],val,X,p=1,h,u;
-    printf("\nEnter the values in form x,y:\n");
+    printf("\nEnter the values in form x y:\n");
     for (i=1;i<=n;i++)
         scanf("%f %f",&x[i],&y[i]);
     printf("\nEnter the value of x for which the value of y is wanted: \n");
